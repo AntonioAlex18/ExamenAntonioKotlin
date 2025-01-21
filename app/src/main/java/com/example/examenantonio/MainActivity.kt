@@ -295,10 +295,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
                 Button(
                     onClick = {
-                        if (nombre1 == "") {
-                            nombre1 = "-"
+                        if (operateur == "") {
+                            operateur = "-"
                         } else {
-                            nombre2 = "-"
+                            operateur = "-"
                         }
                     },
                     modifier = Modifier.weight(1f).padding(2.dp),
